@@ -2,7 +2,7 @@
 
 .photos{
 
-  font-family: Times, Arial, sans-serif;
+
   padding: 50px;
   text-align: center;
 
@@ -22,4 +22,5 @@ img {
 body{
 background-color: #111;
 color: #666;
+font-family: Times, Arial, sans-serif;
 }
