@@ -1,0 +1,27 @@
+/* add your CSS here */
+
+.photos{
+
+
+  padding: 50px;
+  text-align: center;
+
+
+}
+.title{
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  box-shadow: 10px 10px 5px 0px black;
+}
+
+
+
+body{
+/* background-color: #111;*/
+background-image: url("https://lightroom.adobe.com/shares/273af145bd664e469841de1f5d73b1e6/albums/6c0ef33c5b66e31971cb111b12950015/assets/c7f603eed2973e7ede1b650421f6bef5.jpg");
+color: #666;
+font-family: Times, Arial, sans-serif;
+}
