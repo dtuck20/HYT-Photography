@@ -5,15 +5,16 @@
   <title>HYT About</title>
   <link href="styles.css" rel="Stylesheet">
   <link href="lightbox.css" rel="Stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
   body, html {
       height: 100%;
+      background-color: black;
   }
 
   .bg {
       /* The image used */
       background-image: url(images/City-Lights-5925-4.jpg);
-
       /* Full height */
       height: 100%;
 
@@ -22,6 +23,33 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
+  <h3>Contact Form</h3>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  .fa-instagram {
+  background: #125688;
+  color: white;
+}
   </style>
 
 </head>
@@ -31,11 +59,14 @@
     <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact</a>
   </div>
-
-
+  <div class="container">
+    <div class="center">Contact Information</div>
+  </div>
+  <div class="container">
+  <div class="insta"><a href="https://www.instagram.com/hyt.photos/" class="fa fa-instagram"></a></div>
+    </div>
+  </div>
   <div class="bg"></div>
-
-</div>
 
 <script src="jquery-3.3.1.min.js"></script>
 </body>
