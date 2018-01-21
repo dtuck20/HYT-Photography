@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HYT Photos</title>
+  <link href="styles.css" rel="Stylesheet">
+  <link href="lightbox.css" rel="Stylesheet">
+
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <h1 class="title">HYT Photos Portfolio</h1>
+
+
+  <h2>By <em>Sean Brewer</em></h2>
+
+  <h3 id="date"></h3>
+
+<script type="text/javascript">
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
+
+<div class="row">
+  <div class="column">
+    <a href="images/Chains.jpg" data-lightbox="gallery"><img src="images/Chains.jpg" alt="Chains"></a>
+    <a href="images/citynight.jpg" data-lightbox="gallery"><img src="images/citynight.jpg" alt="Albuquerque at Night">
+    <a href="images/Coin.jpg" data-lightbox="gallery"><img src="images/Coin.jpg" alt="Coin">
+    <a href="images/Ghost.jpg" data-lightbox="gallery"><img src="images/Ghost.jpg" alt="Force-Ghost">
+    <a href="images/knife.jpg" data-lightbox="gallery"><img src="images/knife.jpg" alt="Knife">
+    <a href="images/knifebw.jpg" data-lightbox="gallery"><img src="images/knifebw.jpg" alt="Knife-Black-White">
+    <a href="images/moon.jpg" data-lightbox="gallery"><img src="images/moon.jpg" alt="Moon">
+    </div>
+
+  <div class="column">
+    <a href="images/moonbw.jpg" data-lightbox="gallery"><img src="images/moonbw.jpg" alt="Moon-Black-White">
+    <a href="images/NightSkty.jpg" data-lightbox="gallery"><img src="images/NightSkty.jpg" alt="Night Sky">
+    <a href="images/pip.jpg" data-lightbox="gallery"><img src="images/pip.jpg" alt="Pupper">
+    <a href="images/sign.jpg" data-lightbox="gallery"><img src="images/sign.jpg" alt="Street-Sign">
+    <a href="images/sunset1.jpg" data-lightbox="gallery"><img src="images/sunset1.jpg" alt="Sunset">
+    <a href="images/sunset2.jpg" data-lightbox="gallery"><img src="images/sunset2.jpg" alt="Another-Sunset">
+    <a href="images/Yarn.jpg" data-lightbox="gallery"><img src="images/Yarn.jpg" alt="Yarn">
+  </div>
+</div>
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="lightbox.js"></script>
+</body>
+</html>

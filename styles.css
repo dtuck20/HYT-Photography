@@ -64,3 +64,17 @@ img {
     background-color: #d8ab24;
     color: white;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #666;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  font-size: 40px;
+}
