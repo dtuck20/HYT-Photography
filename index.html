@@ -10,37 +10,43 @@
       height: 100%;
   }
 
-  .bg {
-      /* The image used */
-      background-image: url(images/tail-lights-2400-2.jpg);
+.mySlides {
+position: center;
+size: cover;
+height: 100%;
+width: 100%;
+}
 
-      /* Full height */
-      height: 100%;
+.Welcome {
+  display:table;
+  margin:0 auto;
+}
 
-      /* Center and scale the image nicely */
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
+.container {
+  position: relative;
+  text-align: center;
+  color: inherit;
+}
   </style>
 
 </head>
 <body>
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+  <div class="container">
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <h1 class="Welcome">Welcome To HYT Photos</h1>
+    </div>
   </div>
-
-<div class="container">
-  <div class="center">Welcome to HYT photos</div>
-</div>
-
-
   <div class="bg"></div>
-
+    <img class="mySlides" src="https://i.imgur.com/nVzOZpj.jpg">
+    <img class="mySlides" src="https://i.imgur.com/I3DJwon.jpg">
+    <img class="mySlides" src="https://i.imgur.com/EvjLIyn.jpg">
+    <img class="mySlides" src="https://i.imgur.com/Yj7SEZ5.jpg">
 </div>
 
 <script src="jquery-3.3.1.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
